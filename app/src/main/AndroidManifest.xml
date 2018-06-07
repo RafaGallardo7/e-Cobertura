@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mycurrentlocationonamap.app" >
+
+    <uses-sdk android:minSdkVersion="11"
+              android:targetSdkVersion="19"/>
+
+    <permission
+        android:name="com.jertt.yummymap.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="myapp.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-library android:name="com.google.android.maps"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mainicon"
+        android:label="e-Cobertura"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+
+        <uses-library android:required="true" android:name="com.google.android.maps" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="e-Cobertura"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+
+        <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Estadistica"
+                  android:label="Estadistica"
+                  android:screenOrientation="locked"
+                  android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+        <activity android:name=".Detalles"
+                  android:label="Detalles"
+                  android:screenOrientation="locked"
+                  android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+        <activity android:name=".CSV"
+                  android:label="Enviar"
+                  android:screenOrientation="locked"
+                  android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        </activity>
+        <activity android:name=".Acerca"
+            android:label="Acerca"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        </activity>
+
+        <activity android:name="org.achartengine.GraphicalActivity"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBIVA07-MkxqGckiekJvJqy9QCYj1oRCk4"/>
+
+    </application>
+
+    <service android:enabled="true" android:name=".Background"/>
+
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+
+
+
+</manifest>

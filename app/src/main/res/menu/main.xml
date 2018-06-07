@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mycurrentlocationonamap.app.MainActivity" >
+
+    <item android:id="@+id/refrescar"
+          android:title="Refrescar Cronometro"
+          android:orderInCategory="100"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/acerca"
+          android:title="Acerca"
+          android:orderInCategory="100"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/twitter"
+        android:title="Twitter"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+
+</menu>

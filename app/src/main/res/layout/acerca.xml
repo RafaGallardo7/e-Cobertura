@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@android:drawable/ic_dialog_map"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="e-Cobertura v1.3"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22dp"
+        android:layout_weight="0.06"
+        android:gravity="center_vertical|center|center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplicación para recibir información acerca de la red móvil a la que se está conectado. Se puede completar mediciones de cobertura para cualquiera de las operadoras presentes en el país. En base a las mediciones que se realicen con esta aplicación, el usuario podrá revisar la calidad de su servicio. La aplicación cuenta con una ventana de Detalles, donde se presenta información tanto de la red móvil como del dispositivo celular utilizado. Además tiene un ventana de Estadísticas, en la que muestra la potencia obtenida, el indicador de celda, gráficas estadísticas del nivel de la señal recibida e información técnica y de la red"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:gravity="center_vertical|center|center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copyright (c) 2014, 2015 Jaramillo Juan Carlos, Gallardo Rafael"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Under GNU GPL v3 license"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10" />
+</LinearLayout>

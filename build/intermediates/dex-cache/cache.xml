@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\libs\achartengine-1.1.0 (2).jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\build\intermediates\pre-dexed\debug\achartengine-1.1.0 (2)-461145000057614bc501c3602f6514dab8214756.jar" />
+    </item>
+    <item
+        jar="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\libs\GraphView-3.1.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="672e4a5d8906ab21665dcc08c1f7edb6efd6f903">
+        <dex dex="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\build\intermediates\pre-dexed\debug\GraphView-3.1.3-409be5fc6eef8c4204856b84462070fba74f217b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\libs\hintdesk.core.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="45b164ed43d7029ef5fb8d479acdd4410eb65a6f">
+        <dex dex="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\build\intermediates\pre-dexed\debug\hintdesk.core-1bf6cb6b9678122495c70eb00c8718200dca6272.jar" />
+    </item>
+    <item
+        jar="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\libs\ormlite-android-4.47.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="c72f9ed54d8a8bab3fbf56da2b358308a67899a4">
+        <dex dex="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\build\intermediates\pre-dexed\debug\ormlite-android-4.47-3875f5b211ec626ba36411131ffdeec264c002b6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\libs\google-play-services_lib.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ea2d46fdfc94a871fc266b47afe06c0fbdec25b2">
+        <dex dex="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\build\intermediates\pre-dexed\debug\google-play-services_lib-4606aec4c8e1eaede9807150e1b84409c7815ec2.jar" />
+    </item>
+    <item
+        jar="C:\Program Files (x86)\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-2c6e1ee2cd8c268bfe612f2e2252332f346695c9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\libs\poi-3.10.1-20140818.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="95174823e13aa828cb715b542e647e56096ffcb2">
+        <dex dex="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\build\intermediates\pre-dexed\debug\poi-3.10.1-20140818-4814d54a9570833bb4e569c2f3c0186de895caa2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\3.1.36\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7421dcb3ed9db47a59ec618e2398f0df65c2d480">
+        <dex dex="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\build\intermediates\pre-dexed\debug\classes-40d8b31edda6abdf71109f7786150351215f693e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\libs\twitter4j-core-4.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="381cf31e9200c2902782f17248d2af18e2ab4c56">
+        <dex dex="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\build\intermediates\pre-dexed\debug\twitter4j-core-4.0.2-563295491080def0635a2166ac82b523ae0682e5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\libs\hellocharts-library-1.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="62c92f59966a1b70af547d95014fa93960ef1aa4">
+        <dex dex="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\build\intermediates\pre-dexed\debug\hellocharts-library-1.1-fdb9ff8d98d430c6c138d7ef54f65c6d9f16c760.jar" />
+    </item>
+    <item
+        jar="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\libs\androidplot-core-0.6.2-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="161234ca48d0c64e5a4366a35219101f79eddee5">
+        <dex dex="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\build\intermediates\pre-dexed\debug\androidplot-core-0.6.2-SNAPSHOT-a96d3b14fea254b102ddea58112b9080d3216ab7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="C:\Users\Juan\Desktop\App Tesis\24-09-15 GitHub\ProgramaFinal\movilesApp\app\build\intermediates\pre-dexed\debug\classes-da6c39a4e80b0f4936bd8a6ec81acb7e155340c1.jar" />
+    </item>
+
+</items>

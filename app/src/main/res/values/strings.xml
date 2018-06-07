@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">COBERTURA CELULAR</string>
+    <string name="action_settings">Settings</string>
+    <string name="done">Leido correctamente, se puede mandar datos</string>
+    <string name="results">Salida</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="twitter_callback">twitter-callback:///</string>
+
+</resources>

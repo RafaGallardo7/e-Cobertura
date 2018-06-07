@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.app.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment">
+        <!--Logotip Supertel-->
+            <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="7dp"
+            android:layout_gravity="right"
+            android:textSize="16dp"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            />
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="60dp"
+                android:background="#ffc7c7c7"
+                android:layout_gravity="right" >
+
+                <!--Boton DETALLES-->
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/detalles"
+                    android:clickable="true"
+                    android:background="@android:drawable/editbox_dropdown_dark_frame"
+                    android:layout_gravity="center"/>
+                <!--Boton ESTADISTICAS-->
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/estadisticas"
+                    android:clickable="true"
+                    android:background="@android:drawable/editbox_dropdown_dark_frame"
+                    android:layout_gravity="center"
+                    />
+                <!--Boton RECLAMOS-->
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/acerca"
+                    android:clickable="true"
+                    android:background="@android:drawable/editbox_dropdown_dark_frame"
+                    android:layout_gravity="center"/>
+                <!--Boton SALIR-->
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/salir"
+                    android:clickable="true"
+                    android:background="@android:drawable/editbox_dropdown_dark_frame"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+        <!--Boton COMENZAR-->
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="COMENZAR"
+            android:textSize="12dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="500dp"
+            android:id="@+id/comenzar"
+            android:clickable="true"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"/>
+        <!--Boton ENVIAR-->
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="TERMINAR/ENVIAR"
+            android:textSize="14dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="500dp"
+            android:id="@+id/enviar"
+            android:clickable="true"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"/>
+    </fragment>
+</LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_contenido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

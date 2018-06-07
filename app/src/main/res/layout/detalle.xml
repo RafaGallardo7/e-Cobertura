@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbarAlwaysDrawVerticalTrack="false"
+            android:background="@drawable/fondodetalles2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="Estado Servicio" style="@style/labelStyleRight"/>
+            <TextView android:id="@+id/estadoServicio" style="@style/textStyle"
+                      />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="Estado Llamada" style="@style/labelStyleRight"/>
+            <TextView android:id="@+id/estadoLlamada" style="@style/textStyle"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="Estado Conexión" style="@style/labelStyleRight"/>
+            <TextView android:id="@+id/estadoConexion" style="@style/textStyle"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="Latitud" style="@style/labelStyleRight"/>
+            <TextView android:id="@+id/latitud" style="@style/textStyle"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="Longitud" style="@style/labelStyleRight"/>
+            <TextView android:id="@+id/longitud" style="@style/textStyle"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="Potencia" style="@style/labelStyleRight"/>
+            <TextView android:id="@+id/potencia" style="@style/textStyle"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="Nivel Señal" style="@style/labelStyleRight"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="horizontal">
+                <ProgressBar android:id="@+id/NivelSeñal" style="@style/progressStyle"/>
+                <TextView android:id="@+id/infoNivelSeñal" style="@style/textSmallStyle"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="Data" style="@style/labelStyleRight"/>
+            <ImageView android:id="@+id/DireccionData" style="@style/imageStyle"/>
+        </LinearLayout>
+
+        <TextView android:id="@+id/infoDispositivo" style="@style/labelStyleLeft"/>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="RSRP" style="@style/labelStyleRight"/>
+            <TextView android:id="@+id/rsrp" style="@style/textStyle"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="RSRQ" style="@style/labelStyleRight"/>
+            <TextView android:id="@+id/rsrq" style="@style/textStyle"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="RSSNR" style="@style/labelStyleRight"/>
+            <TextView android:id="@+id/rssnr" style="@style/textStyle"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="CQI" style="@style/labelStyleRight"/>
+            <TextView android:id="@+id/cqi" style="@style/textStyle"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="POTENCIA LTE" style="@style/labelStyleRight"/>
+            <TextView android:id="@+id/dbm" style="@style/textStyle"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

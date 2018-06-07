@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:weightSum="1"
+android:gravity="right|fill">
+    <Button android:id="@+id/escribirTXT"
+        android:text="CREAR ARCHIVO .txt"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="2dp"
+        android:clickable="true"
+        android:background="@android:drawable/editbox_dropdown_dark_frame">
+    </Button>
+</LinearLayout>

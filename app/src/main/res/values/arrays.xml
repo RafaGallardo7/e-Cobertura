@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listentries">
+        <item>Azuay</item>
+        <item>Bolivar</item>
+        <item>Cañar</item>
+        <item>Carchi</item>
+        <item>Chimborazo</item>
+        <item>Cotopaxi</item>
+        <item>El Oro</item>
+        <item>Esmeraldas</item>
+        <item>Galápagos</item>
+        <item>Guayas</item>
+        <item>Imbabura</item>
+        <item>Loja</item>
+        <item>Los Rios</item>
+        <item>Manabi</item>
+        <item>Morona Santiago</item>
+        <item>Napo</item>
+        <item>Orellana</item>
+        <item>Pastaza</item>
+        <item>Pichincha</item>
+        <item>Santa Elena</item>
+        <item>Sucumbios</item>
+        <item>Tungurahua</item>
+        <item>Zamora Chinchipe</item>
+    </string-array>
+    <string-array name="listvalues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11></item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+
+    </string-array>
+</resources>
